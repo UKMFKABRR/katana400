@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+  <!--<param name="katana_type" type="string" value="$(env KATANA_TYPE)" />-->
+
+  <!-- start katana node for a physical katana arm -->
+  <!--<include file="$(find katana400)/launch/$(env KATANA_TYPE).launch" />-->
+ <include file="$(find katana400)/launch/katana_400_6m90a.launch" />
+
+</launch>
+
+ 
